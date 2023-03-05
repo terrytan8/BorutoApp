@@ -128,7 +128,7 @@ fun FinishButton(
         // Last page, show the button
         AnimatedVisibility(
             modifier = Modifier.fillMaxWidth(),
-            visible = pagerState.currentPage == 2
+            visible = pagerState.currentPage == LAST_ON_BOARDING_PAGE
         ) {
             Button(
                 onClick = onClick,
