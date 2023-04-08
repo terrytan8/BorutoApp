@@ -2,4 +2,5 @@
     <string name="app_name">BorutoApp</string>
     <string name="app_logo">AppLogo</string>
     <string name="on_boarding_image">on_boarding_image</string>
+    <string name="search_icon">Search Icon</string>
 </resources>
