@@ -12,6 +12,7 @@ import com.example.borutoapp.domain.model.HeroRemoteKey
 import javax.inject.Inject
 
 @OptIn(ExperimentalPagingApi::class)
+/**Do data transaction between API and Local Database**/
 class HeroRemoteMediator @Inject constructor(
     private val borutoApi: BorutoApi,
     private val borutoDatabase: BorutoDatabase

@@ -1,8 +1,8 @@
 package com.example.borutoapp.di
 
 import android.content.Context
-import com.example.borutoapp.data.pref.DataStoreOperationImpl
-import com.example.borutoapp.data.pref.Repository
+import com.example.borutoapp.data.repository.DataStoreOperationImpl
+import com.example.borutoapp.data.repository.Repository
 import com.example.borutoapp.domain.repository.DataStoreOperations
 import com.example.borutoapp.domain.use_case.UseCases
 import com.example.borutoapp.domain.use_case.read_onboarding.ReadOnBoardingUseCase

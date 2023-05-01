@@ -1,6 +1,6 @@
 package com.example.borutoapp.domain.use_case.save_onboarding
 
-import com.example.borutoapp.data.pref.Repository
+import com.example.borutoapp.data.repository.Repository
 
 class SaveOnBoardingUseCase(
     private val repository: Repository
