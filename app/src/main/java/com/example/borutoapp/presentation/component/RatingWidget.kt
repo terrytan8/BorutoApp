@@ -142,7 +142,7 @@ fun HalfFilledStarPreview() {
     val starPath = remember {
         PathParser().parsePathString(pathData = starPathString).toPath()
     }
-    val starPathBounds = remember {
+    val starPathBounds = remember  {
         starPath.getBounds()
     }
     HalfFilledStar(starPath = starPath, starPathBound = starPathBounds, 3f)
